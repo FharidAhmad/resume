@@ -38,12 +38,14 @@ nav ul li a {
 nav ul li a:hover {
     color: rgb(175, 175, 247);
     font-size: 1.01rem;
+    cursor: auto;
 }
 
 .firstsection {
     display: flex;
     justify-content: space-around;
     align-items: center;
+
 }
 
 .firstsection>div {
@@ -54,6 +56,9 @@ nav ul li a:hover {
 .leftsection img {
     display: flex;
     margin: 70px 0;
+    width: 300px;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 }
 
 .rightsection {
@@ -93,3 +98,49 @@ font-size: 1.9rem;
     color: rgb(178, 115, 237);
 
 }
+
+.third-section {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 40px;
+    margin: 0 100px;
+}
+
+.experience-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 10px;
+    border: 2px solid #ffffff; /* Add border */
+    border-radius: 8px; /* Rounded corners */
+    background-color: rgb(1, 1, 21); /* Dark background */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.experience-item img {
+    width: 100px;
+    height: auto;
+    flex-shrink: 0;
+    border-radius: 4px; /* Optional: Rounded corners for the image */
+}
+
+.description {
+    flex: 1;
+}
+
+.description h3 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff4f4; /* Light text for contrast */
+    font-family: 'Poppins', sans-serif;
+}
+
+.description p {
+    margin: 5px 0 0;
+    font-size: 14px;
+    color: #b5abab; /* Softer text color for the description */
+}
+
+
