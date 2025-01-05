@@ -34,13 +34,27 @@
                 <img src="Assets/Images/Profile.png" alt="profilephoto" width="400">
             </div>
             <div class=rightsection>
-               Hi, My Name is <span class="purple">Farid</span>
+                Hi, My Name is <span class="purple">Farid</span>
                 <div> and I am a passionate</div>
-                <div>Web Developer</div>
+                <span id="element"></span>
             </div>
         </section>
+        <section class="second-section">
+            <span class="gray-text"> What i have done so far</span>
+            <h1>Working Experience</h1>
+        </section>
+        <section class="third-section">
+            <img src="Assent/Images/HTML.png" alt="html-icon">
+        </section>
     </main>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
 
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Deploper', 'Web Designer', 'Data Analysis'],
+            typeSpeed: 50,
+        });
+    </script>
 </body>
 
 </html>
